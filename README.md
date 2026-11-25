@@ -1,11 +1,32 @@
-<div align="center">
+# Rent a House
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Full-stack rental property marketplace built with React, Tailwind CSS, Express, SQLite (`node:sqlite`), Google Maps Platform, and Google Sign-In.
 
-  <h1>Built with AI Studio</h2>
+## Requirements
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- Node.js `22+` (uses built-in `node:sqlite` and `zlib.crc32`)
+- npm
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Setup & Run Locally
 
-</div>
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Create a `.env` file from `.env.example` and fill in your environment variables:
+   - `VITE_GOOGLE_MAPS_API_KEY` (optional, for interactive Google Maps)
+   - `ADMIN_PASSCODE` (optional, protects initial Admin registration)
+
+3. Start the development server (runs both Express API + Vite frontend on port `3000`):
+   ```bash
+   npm run dev
+   ```
+
+4. For production build & start:
+   ```bash
+   npm run build
+   npm start
+   ```
+
+The SQLite database is automatically created at `.data/rent_a_house.db` on first start.

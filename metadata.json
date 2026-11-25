@@ -1,0 +1,8 @@
+{
+  "name": "Rent a House",
+  "description": "Property rental marketplace connecting tenants, landlords, and moderators with search filters, rental requests, real-time messaging, and Google Maps pins.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

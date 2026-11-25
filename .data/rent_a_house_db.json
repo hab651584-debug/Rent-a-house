@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "uid": "seller_10ced967",
+      "role": "seller",
+      "displayName": "hamza babar",
+      "email": "hab651584@gmail.com",
+      "phone": "03488466790",
+      "photoURL": "",
+      "preferredCity": "Islamabad",
+      "accountStatus": "active",
+      "verificationStatus": "unverified",
+      "showPhonePublicly": true,
+      "showEmailPublicly": false,
+      "sellerRoleLabel": "Property Owner",
+      "passwordHash": "78e98d372d0c999ec13a19bdcbbf29fb:909e177936f08d561a21d80d051e7c4eb47603b4b5c65c18c6d5aa8cf7b1064378696972b754c3110fbd5dee4eef51531fe99e4a160c3e38505c40b40361302f",
+      "createdAt": "2026-11-24T09:17:51.785Z",
+      "updatedAt": "2026-11-24T09:17:51.785Z"
+    }
+  ],
+  "properties": [],
+  "rentalRequests": [],
+  "conversations": [],
+  "messages": [],
+  "favourites": [],
+  "notifications": [],
+  "reports": [],
+  "supportTickets": [],
+  "adminAuditLogs": [],
+  "config": {
+    "categories": [
+      "House",
+      "Flat",
+      "Portion",
+      "Room",
+      "Apartment",
+      "Commercial"
+    ],
+    "cities": [
+      {
+        "name": "Lahore",
+        "lat": 31.5204,
+        "lng": 74.3587,
+        "areas": [
+          "DHA",
+          "Gulberg",
+          "Johar Town",
+          "Bahria Town",
+          "Model Town",
+          "Wapda Town"
+        ]
+      },
+      {
+        "name": "Islamabad",
+        "lat": 33.6844,
+        "lng": 73.0479,
+        "areas": [
+          "F-10",
+          "F-11",
+          "F-7",
+          "F-6",
+          "G-11",
+          "E-11",
+          "DHA Islamabad",
+          "Bahria Town"
+        ]
+      },
+      {
+        "name": "Karachi",
+        "lat": 24.8607,
+        "lng": 67.0011,
+        "areas": [
+          "Clifton",
+          "DHA Karachi",
+          "Gulshan-e-Iqbal",
+          "PECHS",
+          "North Nazimabad"
+        ]
+      },
+      {
+        "name": "Rawalpindi",
+        "lat": 33.5651,
+        "lng": 73.0169,
+        "areas": [
+          "Bahria Town",
+          "Chaklala Scheme III",
+          "Satellite Town",
+          "Saddar"
+        ]
+      },
+      {
+        "name": "Faisalabad",
+        "lat": 31.4504,
+        "lng": 73.135,
+        "areas": [
+          "Peoples Colony",
+          "D Ground",
+          "Madina Town",
+          "Canal Road"
+        ]
+      },
+      {
+        "name": "Multan",
+        "lat": 30.1575,
+        "lng": 71.5249,
+        "areas": [
+          "Cantt",
+          "Model Town",
+          "DHA Multan",
+          "Bosan Road"
+        ]
+      }
+    ],
+    "maxPhotosPerListing": 15,
+    "minPhotosPerListing": 1,
+    "supportEmail": "support@rentahouse.pk",
+    "supportPhone": "+92 300 0000000",
+    "safetyNotice": "Never transfer rent, token money, or security deposits before inspecting the property in person, verifying the landlord/agent authority, and signing a written tenancy agreement."
+  }
+}
